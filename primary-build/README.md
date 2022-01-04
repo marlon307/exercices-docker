@@ -1,6 +1,6 @@
 ## Montar container apos criar o Dockerfile e executar na pasta local com '.'
 
-<code>docker run -d -p 8080:80 --name ex-simple-build .</code>
+<code>docker image build -t ex-simple-build .</code>
 
 Executar imagem criada
 

@@ -1,5 +1,12 @@
 ## Montar container apos criar o Dockerfile e executar na pasta local com '.'
 
+</br>
+
+### COPY
+copy files
+
+</br>
+
 <code>docker image build -t ex-build-copy .</code>
 
 Executar imagem criada

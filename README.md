@@ -18,3 +18,17 @@ Neste curso aprendi a criar ambientes profissionais completos com Docker, que é
 ## Para quem é este curso:
 + Desenvolvedores
 + Devops
+
+</br>
+
+[CASO DE ERRO](https://cursos.alura.com.br/forum/topico-docker-compose-up-erro-no-nginx-179477)
+
+Quando comecei fazer os exercícios me deparei com o seguinte erro
+
+<code>"ERRO[0002] error waiting for container: context canceled" issue with sshfs plugin</code>
+
+e para solucionar o problema utilize o seguinte comando
+
+<code>sudo systemctl stop apache2</code>
+
+<code>sudo systemctl start apache2</code>

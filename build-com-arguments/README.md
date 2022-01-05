@@ -1,5 +1,12 @@
 ## Montar container apos criar o Dockerfile e executar na pasta local com '.'
 
+</br>
+
+### ARG ENV
+arguments & environment
+
+</br>
+
 <code>docker image build -t ex-build-args .</code>
 
 ### Executando container crido

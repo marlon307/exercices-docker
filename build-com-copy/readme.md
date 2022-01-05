@@ -2,16 +2,16 @@
 
 </br>
 
-### BUILD
-build image
+### COPY
+copy files
 
 </br>
 
-<code>docker image build -t ex-simple-build .</code>
+<code>docker image build -t ex-build-copy .</code>
 
 Executar imagem criada
 
-<code>docker container run -p 80:80 ex-simple-build</code>
+<code>docker container run -p 80:80 ex-build-copy</code>
 
 Para visualizar o resultado acesse à página
 

@@ -1,6 +1,14 @@
 version: '3.8'
+volumes:
+  dados: null
 services:
   dbpostgres:
     image: postgres:14.1
     environment:
       - POSTGRES_HOST_AUTH_METHOD=trust
+    volumes:
+      # Volume dos dados
+      - dados:/var/lib/postgresql/data
+      # Scripts
+      - ./scripts:/scripts
+      - ./scripts/init.sql:/docker-entrypoint-initdb.d/init.sql

@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  dbpostgres:
+    image: postgres:14.1
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust

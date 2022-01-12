@@ -22,4 +22,5 @@
 </br>
 
 <code>docker-compose logs -f -t</code>
+<code>docker-compose logs -f -t worker</code>
 

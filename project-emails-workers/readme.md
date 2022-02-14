@@ -21,6 +21,8 @@
 </br>
 </br>
 
-<code>docker-compose logs -f -t</code>
+<code>docker-compose up -d --scale worker=3</code>
 <code>docker-compose logs -f -t worker</code>
 
+Para finalizar o container
+<code>docker-compose down</code>

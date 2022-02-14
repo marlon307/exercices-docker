@@ -45,8 +45,13 @@ services:
     depends_on:
       - dbpostgres
       - queue
+    environment:
+      - REDIS_HOST=queue
+      - DB_NAME=abc_sender
+      - DB_HOST=dbpostgres
+      - DB_USER=postgres
   queue:
-    image: redis:6.0.2
+    image: redis:3.2
     networks:
       - fila
   worker:
